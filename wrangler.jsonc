@@ -50,25 +50,11 @@
   "durable_objects": {
     "bindings": [
       {
-        "class_name": "Sandbox",
-        "name": "Sandbox",
+        "class_name": "OpenClaw-Sandbox",
+        "name": "OpenClaw-Sandbox",
       },
     ],
   },
-  "migrations": [
-    {
-      "deleted_classes": [
-        "Sandbox"
-      ],
-      "tag": "v1",
-    },
-    {
-      "new_sqlite_classes": [
-        "Sandbox"
-      ],
-      "tag": "v2",
-    },
-  ],
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
   "r2_buckets": [
     {
