@@ -50,8 +50,8 @@
   "durable_objects": {
     "bindings": [
       {
-        "class_name": "OpenClaw-Sandbox",
-        "name": "OpenClaw-Sandbox",
+        "class_name": "Sandbox",
+        "name": "Sandbox",
       },
     ],
   },
